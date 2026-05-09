@@ -1,0 +1,93 @@
+.Card_div1{
+    background-color: rgb(224, 224, 224, 1);
+    padding: 30px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.Card_div2{
+    height: auto;
+    width:90% ;
+    background:white    ;
+    border-radius: 20px;
+   
+}
+.booking-card{
+    background:rgb(199, 220, 252);
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 300px;
+   
+    overflow: hidden;
+  width:95% ;
+    border-radius: 20px;
+    display: flex;
+
+  
+
+   
+}
+.Hotel_imgc{
+ 
+    
+ 
+    width:1000px;
+  
+
+
+}
+.booking-details{
+    padding-left: 20px;
+    row-gap: 5px;
+    width: 1200px;
+}
+
+.img{
+    width: 900px;
+    margin: 4px ;
+    height: 290px;
+margin-left: 5px;
+    border-radius: 10px;
+}
+.Hotel_name{
+   
+    font-size: 30px;
+  text-align: center;
+    height:25px ;
+    
+    font-weight: 500;
+    color: rgb(84, 84, 203);
+   
+}
+.descri{
+    padding-top: 20px;
+    font-size:18px ;
+    font-style: oblique;
+}
+.para-div{
+
+    font-size:18px ;
+    font-style: oblique;
+
+}
+
+.buttonz{
+    font-size: x-large  ;
+    font-weight: 700;
+   border-radius: 10px;
+   color: blanchedalmond;
+    height: 60px;
+    width:400px ;
+    background-color: rgb(35, 123, 183);
+    margin-top:30px ;
+    margin-left:120px ;
+}
+.buttonz:hover{
+    background-color: rgb(14, 80, 124) ;
+    
+}
+

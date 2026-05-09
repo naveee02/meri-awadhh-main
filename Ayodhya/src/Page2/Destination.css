@@ -1,0 +1,20 @@
+.di1{
+   position: relative;
+    height: 12vh;
+    width: 22vw;
+    border-radius: 40px;
+    background-color: rgb(224, 224, 224, 1);
+    color: black;
+    left: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Dest{
+    font-family:serif ;
+    font-size: 60PX;
+    text-align: center;
+
+}
+.di11{
+    background-color: white;
+}
