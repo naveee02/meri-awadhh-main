@@ -75,7 +75,7 @@ h2{
 
 }
 .main{
-    background-image: url('C:\Users\akash\OneDrive\Desktop\Jai_Shree_Ram\my-app\Ayodhya\public\assets\PG_202401161030549074.jpg');
+    background-image: url('/assets/PG_202401161030549074.jpg');
     
     position: relative;
     width: 98.8vw;
@@ -208,7 +208,7 @@ margin-top: 60px;
     background-color: white;
     height: 100%;
     width: 90%;
-     background-image: url("C:\Users\akash\OneDrive\Desktop\Jai_Shree_Ram\my-app\Ayodhya\public\assets\202401161034006294ayodhya-banner (1).jpg");
+     background-image: url("/assets/202401161034006294ayodhya-banner (1).jpg");
      
 }
 .sec{

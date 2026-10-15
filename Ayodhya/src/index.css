@@ -7,6 +7,582 @@ html, body {
   padding: 0;
   width: 100%;
   box-sizing: border-box;
-  overflow-x: hidden; /* Optional: avoids horizontal scroll from vw misbehavior */
+  overflow-x: hidden;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+.site-header {
+  position: relative;
+  z-index: 20;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .main,
+  .full,
+  .MAin_div {
+    width: 100%;
+  }
+
+  .main {
+    min-height: 60vh;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .full {
+    height: auto;
+    min-height: 60vh;
+  }
+
+  .float {
+    left: 50%;
+    top: auto;
+    bottom: 2rem;
+    width: min(80%, 20rem);
+    height: auto;
+    transform: translateX(-50%);
+  }
+
+  .MAin_div {
+    height: auto;
+    padding: 1.5rem 0;
+  }
+
+  .main2 {
+    width: min(94%, 60rem);
+    height: auto;
+    margin-top: 0;
+    flex-wrap: wrap;
+  }
+
+  .photos,
+  .mein {
+    width: 100%;
+    height: auto;
+    min-height: 18rem;
+  }
+
+  .photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .img1,
+  .img2 {
+    position: static;
+    width: min(48%, 22rem);
+    height: 16rem;
+    object-fit: cover;
+  }
+
+  .p {
+    margin: 1rem;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.6;
+  }
+
+  .second {
+    height: auto;
+    min-height: 0;
+    padding: 1rem;
+  }
+
+  .second2 {
+    width: 100%;
+    min-height: 0;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .sec,
+  .sec2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .h11,
+  .p1 {
+    margin: 1rem 0;
+  }
+
+  .sec22 {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .Third {
+    width: 100%;
+  }
+
+  .main23 {
+    display: block;
+    height: auto;
+  }
+
+  .booking-card {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .Hotel_imgc,
+  .booking-details {
+    width: 50%;
+    min-width: 0;
+  }
+
+  .img {
+    width: calc(100% - 0.5rem);
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .buttonz {
+    width: min(100%, 25rem);
+    margin: 1rem 0;
+  }
+
+  #main {
+    height: auto;
+    min-height: 0;
+  }
+
+  #main > div {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    height: auto;
+    min-height: 0;
+    background-image: none;
+  }
+
+  .site-nav {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .nav-brand {
+    font-size: 1.1rem;
+  }
+
+  .nav-toggle {
+    display: flex;
+    width: 2.75rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    border-radius: 0.375rem;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .nav-toggle span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background: #fff;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .nav-links.is-open {
+    display: flex;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 0.65rem 0.25rem;
+  }
+
+  .div10,
+  .div22,
+  .divS3,
+  .div24,
+  .div51,
+  .div26,
+  .div27,
+  .div28,
+  .div29 {
+    align-items: stretch;
+    min-width: 0;
+  }
+
+  .imagecont1,
+  .imagecont2,
+  .imagecont13,
+  .imagecont4,
+  .imagecont5,
+  .imagecont6,
+  .imagecont7,
+  .imagecont8 {
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 0;
+  }
+
+  .content1,
+  .content2,
+  .content13,
+  .content4,
+  .content5,
+  .content6,
+  .content7,
+  .content8,
+  .main-content {
+    flex: 0 0 auto;
+    min-width: 0;
+  }
+
+  .imagecont1 img,
+  .imagecont2 img,
+  .imagecont13 img,
+  .imagecont4 img,
+  .imagecont5 img,
+  .imagecont6 img,
+  .imagecont7 img,
+  .imagecont8 img {
+    position: static !important;
+    inset: auto !important;
+    transform: none !important;
+  }
+
+  .para1,
+  .para22,
+  .para3,
+  .para4,
+  .para5,
+  .para6,
+  .para7,
+  .para8,
+  .para9 {
+    overflow-wrap: anywhere;
+  }
+
+  .footer_s {
+    height: auto;
+    min-height: 0;
+    margin-top: 0;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-section {
+    flex: 1 1 15rem;
+    min-width: 0;
+    margin: 0;
+    padding: 0.75rem;
+  }
+
+  .footer_s .last_sec {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .buttons {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .Icons {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .div11,
+  .div12,
+  .div13,
+  .div14,
+  .div5,
+  .div16,
+  .div17,
+  .div18,
+  .div19 {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .div10,
+  .div22,
+  .divS3,
+  .div24,
+  .div51,
+  .div26,
+  .div27,
+  .div28,
+  .div29 {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .imagecont1,
+  .imagecont2,
+  .imagecont13,
+  .imagecont4,
+  .imagecont5,
+  .imagecont6,
+  .imagecont7,
+  .imagecont8,
+  .content1,
+  .content2,
+  .content13,
+  .content4,
+  .content5,
+  .content6,
+  .content7,
+  .content8,
+  .main-content {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .imagecont1,
+  .imagecont2,
+  .imagecont13,
+  .imagecont4,
+  .imagecont5,
+  .imagecont6,
+  .imagecont7,
+  .imagecont8 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .img_first,
+  .img_Second,
+  .img111,
+  .img222,
+  .img_First3,
+  .img_Second3,
+  .img4,
+  .img41,
+  .img_first5,
+  .img_Second5,
+  .img_First6,
+  .img_second6,
+  .img17,
+  .img27,
+  .img8,
+  .img81,
+  .main-img-temple {
+    position: static;
+    width: 100%;
+    height: clamp(8rem, 32vw, 14rem);
+    margin: 0;
+    object-fit: cover;
+    border-radius: 0.75rem;
+  }
+
+  .para1,
+  .para22,
+  .para3,
+  .para4,
+  .para5,
+  .para6,
+  .para7,
+  .para8,
+  .para9 {
+    margin: 0.75rem 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .Name1,
+  .Name22,
+  .Name3,
+  .Name4,
+  .Name5,
+  .Name6,
+  .Name7,
+  .Name8,
+  .Name9 {
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  .booking-card {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .Hotel_imgc,
+  .booking-details {
+    width: 100%;
+  }
+
+  .Hotel_imgc {
+    height: 14rem;
+  }
+
+  .booking-details {
+    padding: 1rem;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .Hotel_name {
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  .buttonz {
+    height: auto;
+    min-height: 3rem;
+    font-size: 1rem;
+  }
+
+  #main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #main > div {
+    width: 100%;
+  }
+
+  #SearchBar {
+    width: 100%;
+  }
+
+  .login_box {
+    width: min(100%, 28rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .photos {
+    flex-direction: column;
+  }
+
+  .img1,
+  .img2 {
+    width: 100%;
+    height: 14rem;
+  }
+
+  .second {
+    padding: 0.5rem;
+  }
+
+  .second2 {
+    padding: 0.75rem;
+  }
+
+  .footer-section {
+    flex-basis: 100%;
+  }
+
+  .f-h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.08em;
+  }
+
+  .ul-f {
+    padding-left: 1.25rem;
+  }
+
+  .div11,
+  .div12,
+  .div13,
+  .div14,
+  .div5,
+  .div16,
+  .div17,
+  .div18,
+  .div19 {
+    padding: 0.5rem;
+  }
+
+  .div10,
+  .div22,
+  .divS3,
+  .div24,
+  .div51,
+  .div26,
+  .div27,
+  .div28,
+  .div29 {
+    padding: 0.75rem;
+  }
+
+  .imagecont1,
+  .imagecont2,
+  .imagecont13,
+  .imagecont4,
+  .imagecont5,
+  .imagecont6,
+  .imagecont7,
+  .imagecont8 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

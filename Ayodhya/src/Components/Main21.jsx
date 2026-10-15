@@ -57,8 +57,8 @@ gsap.from("p",{
 
     <div className='main2    '>
       <div className='photos'>
-        <img className='img1' src="public\assets\9lord-ram-ayodhya.jpg" alt="image1" />
-        <img  className='img2' src="public\assets\202401241609363984ram-mandir.jpg" alt="image2" />
+        <img className='img1' src="/assets/9lord-ram-ayodhya.jpg" alt="Ayodhya temple" />
+        <img className='img2' src="/assets/202401241609363984ram-mandir.jpg" alt="Ram Mandir" />
 
       </div>
       <div className='mein'> 
