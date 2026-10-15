@@ -369,11 +369,11 @@ export default function Destination() {
           <div className='div10'>
             <div className="imagecont1">
               <Link to='/Hanumangarhi' onClick={scrollToTop}>
-                <img className='img_first' src="\assets\638459537793483192.jpg" alt="Hanumangadi" />
+                <img className='img_first' src="/assets/638459537793483192.jpg" alt="Hanumangadi" />
               </Link>
 
               <Link to='/Ram_ki_Paidi' onClick={scrollToTop}>
-                <img className='img_Second' src="\assets\Ram-ki-Paidi.jpg" alt="Shri" />
+                <img className='img_Second' src="/assets/Ram-ki-Paidi.jpg" alt="Shri" />
 
               </Link>
             </div>
@@ -446,12 +446,12 @@ export default function Destination() {
 
             <div className="imagecont2">
               <Link to='/Shri-Nageshwarnath-Temple' onClick={scrollToTop}>
-                <img className='img111' src="\assets\Shri-Nageshwarnath-Temple.jpg" alt="Hanumangadi" />
+                <img className='img111' src="/assets/Shri-Nageshwarnath-Temple.jpg" alt="Hanumangadi" loading="lazy" decoding="async" />
 
               </Link>
 
               <Link to="/Kanak_Bhawan" onClick={scrollToTop}>
-                <img className='img222' src="\assets\Kanak-Bhawan-a.jpg" alt="Shri" />
+                <img className='img222' src="/assets/Kanak-Bhawan-a.jpg" alt="Shri" loading="lazy" decoding="async" />
 
               </Link>
             </div>
@@ -465,11 +465,11 @@ export default function Destination() {
           <div className='divS3'>
             <div className="imagecont13">
               <Link to="/Tulsi_Smarak" onClick={scrollToTop}>
-                <img className='img_First3' src="\assets\Tulsi-Smarak-Bhawan.jpg" alt="Hanumangadi" />
+                <img className='img_First3' src="/assets/Tulsi-Smarak-Bhawan.jpg" alt="Hanumangadi" loading="lazy" decoding="async" />
 
               </Link>
               <Link to="/Treta_ke" onClick={scrollToTop}>
-                <img className='img_Second3' src="\assets\Treta-ke-Thakur.jpg" alt="Shri" />
+                <img className='img_Second3' src="/assets/Treta-ke-Thakur.jpg" alt="Shri" loading="lazy" decoding="async" />
 
               </Link>
             </div>
@@ -525,10 +525,10 @@ export default function Destination() {
             </div>
             <div className="imagecont4">
               <Link to="/Jain_Shrines" onClick={scrollToTop}>
-                <img className='img4' src="\assets\jain-shrines-in-ayodhya.jpg" alt="Hanumangadi" />
+                <img className='img4' src="/assets/jain-shrines-in-ayodhya.jpg" alt="Hanumangadi" loading="lazy" decoding="async" />
 
               </Link>
-              <img className='img41' src="\assets\Mani-Parvat.jpg" alt="Shri" />
+              <img className='img41' src="/assets/Mani-Parvat.jpg" alt="Shri" loading="lazy" decoding="async" />
             </div>
 
           </div>
@@ -541,11 +541,11 @@ export default function Destination() {
           <div className='div51'>
             <div className="imagecont5">
               <Link to="/Choti_Devi" onClick={scrollToTop}>
-                <img className='img_first5' src="\assets\Chhoti-Devkali-Temple.jpg" alt="Hanumangadi" />
+                <img className='img_first5' src="/assets/Chhoti-Devkali-Temple.jpg" alt="Hanumangadi" loading="lazy" decoding="async" />
 
               </Link>
               <Link to="/GuptarGhat" onClick={scrollToTop}>
-                <img className='img_Second5' src="\assets\Guptar-Ghat.jpg" alt="Shri" />
+                <img className='img_Second5' src="/assets/Guptar-Ghat.jpg" alt="Shri" loading="lazy" decoding="async" />
 
               </Link>
 
@@ -608,12 +608,12 @@ export default function Destination() {
             </div>
             <div className="imagecont6">
               <Link to="/Gurudwaras" onClick={scrollToTop}>
-                <img className='img_First6' src="\assets\Gurudwaras.jpg" alt="Hanumangadi" />
+                <img className='img_First6' src="/assets/Gurudwaras.jpg" alt="Hanumangadi" loading="lazy" decoding="async" />
 
               </Link>
 
 
-              <img className='img_second6' src="\assets\Suraj-Kund.jpg" alt="Shri" />
+              <img className='img_second6' src="/assets/Suraj-Kund.jpg" alt="Shri" loading="lazy" decoding="async" />
 
             </div>
 
@@ -625,8 +625,8 @@ export default function Destination() {
         <div className="div17">
           <div className='div27'>
             <div className="imagecont7">
-              <img className='img17' src="\assets\Ghats-and-Kunds.jpg" alt="Hanumangadi" />
-              <img className='img27' src="\assets\Gulab-Bari.jpg" alt="Shri" />
+              <img className='img17' src="/assets/Ghats-and-Kunds.jpg" alt="Hanumangadi" loading="lazy" decoding="async" />
+              <img className='img27' src="/assets/Gulab-Bari.jpg" alt="Shri" loading="lazy" decoding="async" />
             </div>
             <div className="content7">
               <div className="Hanuman7">
@@ -674,8 +674,8 @@ export default function Destination() {
 
             </div>
             <div className="imagecont8">
-              <img className='img8' src="\assets\Tomb-of-Bahu-Begum.jpg" alt="Hanumangadi" />
-              <img className='img81' src="\assets\Company-Garden.jpg" alt="Shri" />
+              <img className='img8' src="/assets/Tomb-of-Bahu-Begum.jpg" alt="Hanumangadi" loading="lazy" decoding="async" />
+              <img className='img81' src="/assets/Company-Garden.jpg" alt="Shri" loading="lazy" decoding="async" />
             </div>
 
           </div>
@@ -690,7 +690,7 @@ export default function Destination() {
             <div className='main-img'>
               <Link to="/Ram_Mandir" onClick={scrollToTop}>
 
-                <img className='main-img-temple' src="public\assets\Ayodhya_Ram_Mandir_Inauguration_Day_Picture.jpg" alt="" />
+                <img className='main-img-temple' src="/assets/Ayodhya_Ram_Mandir_Inauguration_Day_Picture.jpg" alt="Ram Mandir" loading="lazy" decoding="async" />
               </Link>
 
             </div>

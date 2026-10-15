@@ -10,8 +10,8 @@ function Main22() {
            </div>
            <div className='sec2'> 
            <div className='sec22'>
-           <div class="video_thumb abb"><video width="100%" height="200" poster="images/Ayodhya_video_poster.jpg" preload="none" muted autoPlay controls="true">
-                                            <source src="AYODHYA_ENGLISH.mp4" />
+           <div className="video_thumb abb"><video width="100%" height="200" poster="/assets/Ayodhya1.jpg" preload="none" muted controls>
+                                            <source src="/AYODHYA_ENGLISH.mp4" />
                                         </video></div>
            </div>
            </div>
