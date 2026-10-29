@@ -10,7 +10,7 @@ function Main21() {
   let t=gsap.timeline();
   useGSAP(()=>{
     gsap.from(".img1",{
-      x:-700,
+      xPercent:-12,
       duration:1,
       yoyo:true,
       scrollTrigger:{
@@ -22,7 +22,7 @@ function Main21() {
       }
   })
   gsap.from(".img2",{
-    x:700,
+    xPercent:12,
     duration:2,
     yoyo:true,
     scrollTrigger:{

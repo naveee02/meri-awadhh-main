@@ -18,7 +18,7 @@ export default function Destination() {
 
   useGSAP(() => {
     gsap.from(".img_first", {
-      x: 150,
+      xPercent: 8,
       yoyo: true,
       scrollTrigger: {
         markers: false,
@@ -30,7 +30,7 @@ export default function Destination() {
       }
     })
     gsap.from(".img_Second", {
-      x: -200,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
         markers: false,
@@ -54,7 +54,7 @@ export default function Destination() {
       }
     })
     gsap.from(".img111", {
-      x: -300,
+      xPercent: -8,
       scrollTrigger: {
         markers: false,
 
@@ -65,7 +65,7 @@ export default function Destination() {
       }
     })
     gsap.from(".img222", {
-      x: 150,
+      xPercent: 8,
       scrollTrigger: {
         markers: false,
 
@@ -89,7 +89,7 @@ export default function Destination() {
     })
 
     gsap.from(".img_First3", {
-      x: 150,
+      xPercent: 8,
       yoyo: true,
       scrollTrigger: {
         markers: false,
@@ -101,7 +101,7 @@ export default function Destination() {
       }
     })
     gsap.from(".img_Second3", {
-      x: -200,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
         markers: false,
@@ -125,7 +125,7 @@ export default function Destination() {
       }
     })
     gsap.from(".img4", {
-      x: -300,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
 
@@ -137,7 +137,7 @@ export default function Destination() {
 
     })
     gsap.from(".img41", {
-      x: 150,
+      xPercent: 8,
       yoyo: true,
       scrollTrigger: {
 
@@ -162,7 +162,7 @@ export default function Destination() {
     })
 
     gsap.from(".img_first5", {
-      x: -200,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
 
@@ -176,7 +176,7 @@ export default function Destination() {
     })
 
     gsap.from(".img_Second5", {
-      x: 150,
+      xPercent: 8,
       yoyo: true,
       scrollTrigger: {
 
@@ -215,7 +215,7 @@ export default function Destination() {
 
     })
     gsap.from(".img_First6", {
-      x: 150,
+      xPercent: 8,
       yoyo: true,
       scrollTrigger: {
 
@@ -228,7 +228,7 @@ export default function Destination() {
 
     })
     gsap.from(".img_second6", {
-      x: -300,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
 
@@ -242,7 +242,7 @@ export default function Destination() {
     })
 
     gsap.from(".img17", {
-      x: 150,
+      xPercent: 8,
       yoyo: true,
       scrollTrigger: {
 
@@ -255,7 +255,7 @@ export default function Destination() {
 
     })
     gsap.from(".img27", {
-      x: -200,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
 
@@ -282,7 +282,7 @@ export default function Destination() {
     })
 
     gsap.from(".img8", {
-      x: -300,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
 
@@ -295,7 +295,7 @@ export default function Destination() {
 
     })
     gsap.from(".img81", {
-      x: 150,
+      xPercent: 8,
       yoyo: true,
       scrollTrigger: {
 
@@ -323,7 +323,7 @@ export default function Destination() {
     })
 
     gsap.from(".main-img-temple", {
-      x: -300,
+      xPercent: -8,
       yoyo: true,
       scrollTrigger: {
 

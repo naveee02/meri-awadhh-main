@@ -143,3 +143,92 @@ position: relative;
     width: 98.8vw;
     height:85vh ;
 }
+
+.page1,
+.h_content {
+    width: 100%;
+    height: auto;
+}
+
+.h_images,
+.h_image,
+.h_img_Kanak {
+    position: relative;
+    width: 100%;
+    height: min(78vh, 52rem);
+}
+
+.h_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h_NAME,
+.Ram_NAME,
+.Shri_NAME {
+    left: 50%;
+    top: auto;
+    bottom: 1.5rem;
+    transform: translateX(-50%);
+    width: min(80%, 24rem);
+    height: auto;
+    padding: 0.5rem 1rem;
+}
+
+.hanu,
+.Shri {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.125rem);
+    line-height: 1.2;
+}
+
+.h_content {
+    padding: clamp(1rem, 3vw, 2rem);
+}
+
+.h_history,
+.Full_content_travel {
+    width: min(100%, 80rem);
+    height: auto;
+    margin: 1rem auto;
+    padding: clamp(1rem, 3vw, 2rem);
+}
+
+.h_heading {
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+}
+
+.h_para {
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
+    line-height: 1.6;
+}
+
+.Air,
+.bus {
+    min-height: 0;
+    height: auto;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.plane_img,
+.bus_img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .Air,
+    .bus {
+        flex-direction: column;
+    }
+
+    .Air_content,
+    .bus_content,
+    .train_content {
+        margin-left: 0;
+    }
+}

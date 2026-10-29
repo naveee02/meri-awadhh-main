@@ -95,7 +95,7 @@ padding-top: 10px;
    
 }
 
- {/* component 2*/}
+/* component 2 */
 
 
 .div12{
@@ -787,4 +787,145 @@ padding-top: 10px;
    
 }
 
+@media (min-width: 769px) {
+    .main_div {
+        width: 100%;
+    }
 
+    .div11,
+    .div12,
+    .div13,
+    .div14,
+    .div5,
+    .div16,
+    .div17,
+    .div18,
+    .div19 {
+        height: auto;
+        min-height: 0;
+        padding: clamp(1.25rem, 3vw, 2.5rem);
+    }
+
+    .div10,
+    .div22,
+    .divS3,
+    .div24,
+    .div51,
+    .div26,
+    .div27,
+    .div28,
+    .div29 {
+        width: min(100%, 80rem);
+        height: auto;
+        min-height: 32rem;
+        align-items: center;
+        gap: clamp(1rem, 3vw, 2.5rem);
+        padding: clamp(1rem, 2vw, 2rem);
+        overflow: hidden;
+    }
+
+    .imagecont1,
+    .imagecont2,
+    .imagecont13,
+    .imagecont4,
+    .imagecont5,
+    .imagecont6,
+    .imagecont7,
+    .imagecont8 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        align-items: center;
+        gap: 0.75rem;
+        width: 48%;
+        height: auto;
+        min-width: 0;
+        padding: 0;
+    }
+
+    .content1,
+    .content2,
+    .content13,
+    .content4,
+    .content5,
+    .content6,
+    .content7,
+    .content8 {
+        width: 52%;
+        height: auto;
+        min-width: 0;
+        padding: 0;
+    }
+
+    .img_first,
+    .img_Second,
+    .img111,
+    .img222,
+    .img_First3,
+    .img_Second3,
+    .img4,
+    .img41,
+    .img_first5,
+    .img_Second5,
+    .img_First6,
+    .img_second6,
+    .img17,
+    .img27,
+    .img8,
+    .img81 {
+        position: static;
+        width: 100%;
+        height: clamp(13rem, 24vw, 21rem);
+        margin: 0;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+
+    .Name1,
+    .Name22,
+    .Name3,
+    .Name4,
+    .Name5,
+    .Name6,
+    .Name7,
+    .Name8,
+    .Name9 {
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        line-height: 1.2;
+        margin: 0.75rem 0;
+    }
+
+    .para1,
+    .para22,
+    .para3,
+    .para4,
+    .para5,
+    .para6,
+    .para7,
+    .para8,
+    .para9 {
+        margin: 0.75rem 0;
+        padding: 0;
+        font-size: clamp(1rem, 1.2vw, 1.125rem);
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+    }
+
+    .div29 {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+
+    .main-img,
+    .main-content {
+        width: 100%;
+        height: auto;
+        min-width: 0;
+        padding: 0;
+    }
+
+    .main-img-temple {
+        width: 100%;
+        height: clamp(16rem, 32vw, 28rem);
+        object-fit: cover;
+    }
+}
